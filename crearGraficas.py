@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# Autor: Francisco Rodriguez QC-KSM-2024
+# Autor: Francisco Rodriguez 2024
 
 # Importacion de librerias
 import os
