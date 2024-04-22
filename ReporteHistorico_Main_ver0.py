@@ -2,6 +2,7 @@
 # coding: utf-8
 # Autor: Francisco Rodriguez | Mty., N. L., Mx. ! 2024
 
+import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QTableWidgetItem
 from Interfaces.ui_Dispersion import Ui_ventanaPrincipal
 from datetime import datetime
@@ -447,7 +448,8 @@ class MainWindow(QMainWindow, Ui_ventanaPrincipal):
 
 #Cargar y generar la aplicacion        
 if __name__ == '__main__':
-    app = QApplication()
+    sys.argv += ['-platform', 'windows:darkmode=2']
+    app = QApplication(sys.argv)
     app.setStyle("Fusion")
     window = MainWindow()
     window.show()
