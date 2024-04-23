@@ -11,6 +11,5 @@ Con las extensiones:
   matplotlib
   statistics
   datetime
-  os
   xlsxwriter
   tkinter
