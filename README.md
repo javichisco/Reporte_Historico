@@ -12,4 +12,3 @@ Con las extensiones:
   statistics
   datetime
   xlsxwriter
-  tkinter
