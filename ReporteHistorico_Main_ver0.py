@@ -448,7 +448,7 @@ class MainWindow(QMainWindow, Ui_ventanaPrincipal):
 
 #Cargar y generar la aplicacion        
 if __name__ == '__main__':
-    sys.argv += ['-platform', 'windows:lightmode=2']
+    sys.argv += ['-platform', 'windows:lightmode=0']
     app = QApplication(sys.argv)
     app.setStyle("Fusion")
     window = MainWindow()
